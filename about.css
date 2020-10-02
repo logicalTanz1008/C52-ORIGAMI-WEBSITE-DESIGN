@@ -1,0 +1,95 @@
+.header{
+    text-align: center;
+    font-family: sans-serif;
+    background-color:rgb(6, 10, 26);
+    color: #44e7a9;
+}
+
+.body{
+    text-align: center;
+    margin-top: 130px;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-size: 24px;
+    font-weight:500px;
+    font-family: monospace;
+    color: rgb(6, 10, 26);;
+}
+
+a:link, a:visited {
+    background-color: #2791c2;
+    color: rgb(48, 10, 10);
+    padding: 14px 25px;
+    font-family:monospace;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    color: #44e7a9;;
+    background-color: #44e7a9;
+    font-size: 18px;
+  }
+
+/*a:link{ 
+    color:  #0f5f8d;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+a:hover{
+    color: rgb(0,255,255)
+}
+*/
+
+body{
+    background-color: #44e7a9;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+    /* tooltip */
+    a.tooltip {
+        border-bottom: 1px dashed;
+        text-decoration: none;
+      }
+      a.tooltip:hover {
+        cursor: help;
+        position: relative;
+      }
+      a.tooltip span {
+        display: none;
+      }
+      a.tooltip:hover span {
+        border: rgb(110, 22, 22) 2px;
+        padding: 5px 20px 5px 5px;
+        display: block;
+        z-index: 100;
+        background: #0f9da1;
+        left: 0px;
+        margin: 15px;
+        width: 200px;
+        position: absolute;
+        top: 15px;
+        text-decoration: none;
+      }
